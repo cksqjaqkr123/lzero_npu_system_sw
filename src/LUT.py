@@ -40,6 +40,11 @@ def generate_hardware_lut(func_type, input_scale=0.1, output_scale=255.0,
             epsilon = 1e-5
             y = 1.0 / (abs(x) + epsilon)
             quantized_out = int(round(y * output_scale))
+            
+        elif func_type == 'rsqrt':  # 새로 추가된 루트 스케일 (역제곱근)
+            epsilon = 1e-5
+            y = 1.0 / math.sqrt(abs(x) + epsilon)
+            quantized_out = int(round(y * output_scale))
 
         if output_bits == 16:
             quantized_out = max(0, min(65535, quantized_out))
@@ -78,6 +83,10 @@ if __name__ == "__main__":
     
     results.append(generate_hardware_lut('scale', input_scale=0.1, output_scale=6553.5,
                                          input_bits=8,  output_bits=16))
+                                         
+    # 새로 추가된 루트 스케일 (RMSNorm / LayerNorm 분산 정규화용)
+    results.append(generate_hardware_lut('rsqrt', input_scale=0.1, output_scale=6553.5,
+                                         input_bits=8,  output_bits=16))
 
     print("\n--- [1] 칩셋 메모리 적재용 정적 LUT 생성 결과 ---")
     for func_type, expected, actual, vals in results:
@@ -99,14 +108,14 @@ if __name__ == "__main__":
             else:
                 print(f"   ↳ [cos(0) Check] idx=0 값 {cos_0} -> ❌ FAIL")
                 
-        if func_type == 'scale':
+        if func_type in ['scale', 'rsqrt']:
             diffs = [abs(vals[i] - vals[i+1]) for i in range(1, 8)]
-            print(f"   ↳ [Scale Curve Check] 연속 Diff (idx 1~8): {diffs}")
+            print(f"   ↳ [{func_type.upper()} Curve Check] 연속 Diff (idx 1~8): {diffs}")
             
             if diffs[0] > diffs[-1] and all(diffs[i] >= diffs[i+1] for i in range(len(diffs)-1)):
-                print(f"   ↳ [Scale Curve Check] Diff가 지속적으로 감소하는 완벽한 1/x 곡선 확인 -> ✅ PASS")
+                print(f"   ↳ [{func_type.upper()} Curve Check] Diff가 지속적으로 감소하는 완벽한 감소 곡선 확인 -> ✅ PASS")
             else:
-                print(f"   ↳ [Scale Curve Check] 값이 포화되었거나 직선 형태 -> ❌ FAIL")
+                print(f"   ↳ [{func_type.upper()} Curve Check] 값이 포화되었거나 직선 형태 -> ❌ FAIL")
                 
         if func_type == 'gelu':
             v1000 = vals[1000]
