@@ -1,0 +1,6 @@
+# Python >=3.10 recommended for the real-checkpoint frontend.
+numpy>=1.26,<3
+torch>=2.2,<3
+transformers>=4.44,<5
+sentencepiece>=0.2,<1
+safetensors>=0.4,<1
