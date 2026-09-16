@@ -1,0 +1,4 @@
+{"text":"Explain why a static quantization scale stays fixed during inference."}
+{"text":"행렬 곱셈에서 입력과 출력 채널의 차이를 설명해 주세요."}
+{"text":"A small embedded processor performs a matrix multiplication and then applies an activation function."}
+{"text":"Write a short comparison of integer arithmetic and floating point arithmetic."}
