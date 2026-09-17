@@ -116,8 +116,22 @@ def main(argv=None):
             replay(name)(stats.add)
             groups[group] = (stats, shapes[name][1])
         stats, input_width = groups[group]
+
+        # 수정 
         if input_width != shapes[name][1]:
             raise ValueError(f'{group}: shared input width mismatch')
+        # --- [추가된 코드] QK 라벨링 및 스케일 0.2 독립 조정 ---
+        from dataclasses import replace
+        if name.endswith(('q_proj', 'k_proj')):
+            # Q, K는 RoPE 팽창을 대비해 LUT 제약을 풀고 0.2 스케일로 강제
+            layer_options = replace(options, mode='fixed', s10=0.2, fixed_lut_scale=None)
+        else:
+            # 나머지는 기존 전역 options (GeLU용 0.1 고정 등) 유지
+            layer_options = options
+        # --------------------------------------------------------
+
+        # 주의: 마지막 인자를 options에서 layer_options로 변경!
+
         operation = LinearCalibration(name, shapes[name], read_weight(name), stats.scale(), profile, options)
         report, vectors = operation.run(replay(name), replay(name, 'validation') if has_validation else None)
         exporter.add(operation, report, vectors, stats.metadata(), group)
