@@ -1,0 +1,25 @@
+{
+  "binary_export": {
+    "status": "ok"
+  },
+  "groups": {
+    "model.layers.0.mlp.gate_proj": "model.layers.0.mlp.gate_up_input",
+    "model.layers.1.mlp.gate_proj": "model.layers.1.mlp.gate_up_input",
+    "model.layers.2.mlp.gate_proj": "model.layers.2.mlp.gate_up_input",
+    "model.layers.3.mlp.gate_proj": "model.layers.3.mlp.gate_up_input",
+    "model.layers.4.mlp.gate_proj": "model.layers.4.mlp.gate_up_input",
+    "model.layers.5.mlp.gate_proj": "model.layers.5.mlp.gate_up_input",
+    "model.layers.6.mlp.gate_proj": "model.layers.6.mlp.gate_up_input",
+    "model.layers.7.mlp.gate_proj": "model.layers.7.mlp.gate_up_input",
+    "model.layers.8.mlp.gate_proj": "model.layers.8.mlp.gate_up_input",
+    "model.layers.9.mlp.gate_proj": "model.layers.9.mlp.gate_up_input",
+    "model.layers.10.mlp.gate_proj": "model.layers.10.mlp.gate_up_input",
+    "model.layers.11.mlp.gate_proj": "model.layers.11.mlp.gate_up_input",
+    "model.layers.12.mlp.gate_proj": "model.layers.12.mlp.gate_up_input",
+    "model.layers.13.mlp.gate_proj": "model.layers.13.mlp.gate_up_input",
+    "model.layers.14.mlp.gate_proj": "model.layers.14.mlp.gate_up_input",
+    "model.layers.15.mlp.gate_proj": "model.layers.15.mlp.gate_up_input",
+    "model.layers.16.mlp.gate_proj": "model.layers.16.mlp.gate_up_input",
+    "model.layers.17.mlp.gate_proj": "model.layers.17.mlp.gate_up_input"
+  }
+}
