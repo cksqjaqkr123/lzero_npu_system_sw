@@ -1,0 +1,24 @@
+[*] diagnostics/ex_norm10_capture_fixed_v2/sout_sweep_all.csv rows=159
+[*] per-norm 선택 완료: 53개
+[*] 선택 분포: {'p9999': 53}
+[*] 클러스터링 threshold=0.05 → 19개 LUT (원래 53개 → 34개 절감, 35.8% 용량)
+  Cluster 0: rep_s_out=0.012818 range=[0.012427,0.013209] members=3 blk.14.ffn_norm, blk.13.ffn_norm, blk.15.ffn_norm
+  Cluster 1: rep_s_out=0.014905 range=[0.014384,0.015362] members=3 blk.16.ffn_norm, blk.11.ffn_norm, blk.10.ffn_norm
+  Cluster 2: rep_s_out=0.015753 range=[0.015753,0.015753] members=1 blk.17.ffn_norm
+  Cluster 3: rep_s_out=0.017417 range=[0.017123,0.017710] members=2 blk.9.ffn_norm, blk.12.ffn_norm
+  Cluster 4: rep_s_out=0.019472 range=[0.019472,0.019472] members=2 blk.18.ffn_norm, blk.23.ffn_norm
+  Cluster 5: rep_s_out=0.021298 range=[0.020450,0.021820] members=6 blk.22.ffn_norm, blk.21.ffn_norm, blk.24.ffn_norm, blk.13.attn_norm, blk.20.ffn_norm...
+  Cluster 6: rep_s_out=0.022945 range=[0.022603,0.023581] members=4 blk.8.ffn_norm, blk.11.attn_norm, blk.25.ffn_norm, blk.7.ffn_norm
+  Cluster 7: rep_s_out=0.025082 range=[0.024560,0.025538] members=3 blk.15.attn_norm, blk.12.attn_norm, blk.10.attn_norm
+  Cluster 8: rep_s_out=0.027838 range=[0.027299,0.028669] members=4 blk.2.ffn_norm, blk.14.attn_norm, blk.4.ffn_norm, blk.16.attn_norm
+  Cluster 9: rep_s_out=0.029746 range=[0.029256,0.030235] members=2 blk.9.attn_norm, blk.17.attn_norm
+  Cluster 10: rep_s_out=0.032127 range=[0.031605,0.033170] members=3 blk.3.ffn_norm, blk.6.ffn_norm, blk.1.ffn_norm
+  Cluster 11: rep_s_out=0.034866 range=[0.034149,0.035714] members=3 blk.8.attn_norm, blk.7.attn_norm, blk.3.attn_norm
+  Cluster 12: rep_s_out=0.037867 range=[0.037084,0.038650] members=2 blk.19.attn_norm, blk.18.attn_norm
+  Cluster 13: rep_s_out=0.042074 range=[0.041194,0.042955] members=2 blk.21.attn_norm, blk.25.attn_norm
+  Cluster 14: rep_s_out=0.047750 range=[0.046282,0.048630] members=4 blk.20.attn_norm, blk.24.attn_norm, blk.4.attn_norm, blk.5.ffn_norm
+  Cluster 15: rep_s_out=0.057945 range=[0.055675,0.059589] members=5 blk.0.ffn_norm, blk.23.attn_norm, output_norm.final_norm, blk.6.attn_norm, blk.22.attn_norm
+  Cluster 16: rep_s_out=0.061350 range=[0.061350,0.061350] members=1 blk.2.attn_norm
+  Cluster 17: rep_s_out=0.066634 range=[0.065068,0.068200] members=2 blk.0.attn_norm, blk.5.attn_norm
+  Cluster 18: rep_s_out=0.082877 range=[0.082877,0.082877] members=1 blk.1.attn_norm
+[✓] sout_lut.json 저장

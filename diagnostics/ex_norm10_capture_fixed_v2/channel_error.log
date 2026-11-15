@@ -1,0 +1,78 @@
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[*] Tokenizer: transformers (vocab=256000)
+[*] conv 0 done
+[*] conv 1 done
+[*] conv 2 done
+[*] conv 3 done
+[*] conv 4 done
+[*] conv 5 done
+[*] conv 6 done
+[*] conv 7 done
+
+=== blk.0 attn_norm  NMSE=0.0700  tokens=2630 ===
+  Top 10 채널 (err 기여도):
+    # 1 ch=1393 gamma=5.969 err_share= 98.1% cum= 98.1% clip=1615 y2=1914422.1
+    # 2 ch=1142 gamma=3.578 err_share=  0.4% cum= 98.5% clip=429 y2=292085.8
+    # 3 ch= 816 gamma=4.484 err_share=  0.0% cum= 98.5% clip=0 y2=35099.4
+    # 4 ch= 140 gamma=4.156 err_share=  0.0% cum= 98.5% clip=0 y2=29285.7
+    # 5 ch= 833 gamma=4.250 err_share=  0.0% cum= 98.5% clip=0 y2=24892.7
+    # 6 ch= 593 gamma=4.078 err_share=  0.0% cum= 98.5% clip=0 y2=9391.1
+    # 7 ch=1349 gamma=3.594 err_share=  0.0% cum= 98.5% clip=0 y2=20709.6
+    # 8 ch= 206 gamma=3.859 err_share=  0.0% cum= 98.5% clip=0 y2=12240.1
+    # 9 ch= 184 gamma=4.156 err_share=  0.0% cum= 98.5% clip=0 y2=16243.6
+    #10 ch= 689 gamma=3.750 err_share=  0.0% cum= 98.5% clip=0 y2=62954.7
+
+=== blk.1 attn_norm  NMSE=0.1015  tokens=2630 ===
+  Top 10 채널 (err 기여도):
+    # 1 ch= 114 gamma=1.824 err_share= 61.4% cum= 61.4% clip=2577 y2=3116582.7
+    # 2 ch=1683 gamma=1.637 err_share= 34.8% cum= 96.2% clip=2421 y2=2226501.0
+    # 3 ch=1393 gamma=2.758 err_share=  0.0% cum= 96.2% clip=119 y2=202464.5
+    # 4 ch=1046 gamma=3.594 err_share=  0.0% cum= 96.2% clip=0 y2=44802.3
+    # 5 ch= 184 gamma=3.453 err_share=  0.0% cum= 96.2% clip=0 y2=107201.8
+    # 6 ch= 206 gamma=3.281 err_share=  0.0% cum= 96.2% clip=0 y2=16013.1
+    # 7 ch=1411 gamma=3.062 err_share=  0.0% cum= 96.2% clip=0 y2=33443.4
+    # 8 ch= 833 gamma=3.000 err_share=  0.0% cum= 96.2% clip=0 y2=12352.5
+    # 9 ch= 140 gamma=3.016 err_share=  0.0% cum= 96.3% clip=0 y2=17057.3
+    #10 ch=  61 gamma=2.945 err_share=  0.0% cum= 96.3% clip=0 y2=28001.0
+
+=== blk.5 attn_norm  NMSE=0.0684  tokens=2630 ===
+  Top 10 채널 (err 기여도):
+    # 1 ch=1002 gamma=1.707 err_share= 96.4% cum= 96.4% clip=2575 y2=2350656.5
+    # 2 ch=1683 gamma=2.023 err_share=  0.2% cum= 96.5% clip=450 y2=297019.8
+    # 3 ch= 114 gamma=1.574 err_share=  0.1% cum= 96.6% clip=103 y2=245915.2
+    # 4 ch=2192 gamma=1.633 err_share=  0.0% cum= 96.6% clip=2 y2=198190.8
+    # 5 ch=1405 gamma=2.398 err_share=  0.0% cum= 96.7% clip=0 y2=134941.1
+    # 6 ch= 141 gamma=1.812 err_share=  0.0% cum= 96.7% clip=3 y2=200128.4
+    # 7 ch= 535 gamma=0.809 err_share=  0.0% cum= 96.7% clip=0 y2=58928.2
+    # 8 ch=1957 gamma=1.785 err_share=  0.0% cum= 96.7% clip=0 y2=100093.9
+    # 9 ch= 540 gamma=3.109 err_share=  0.0% cum= 96.8% clip=0 y2=43280.1
+    #10 ch=2123 gamma=1.473 err_share=  0.0% cum= 96.8% clip=1 y2=98738.1
+
+=== blk.5 ffn_norm  NMSE=0.0370  tokens=2630 ===
+  Top 10 채널 (err 기여도):
+    # 1 ch=1002 gamma=1.332 err_share= 94.2% cum= 94.2% clip=2518 y2=1201759.7
+    # 2 ch= 114 gamma=1.396 err_share=  0.1% cum= 94.4% clip=247 y2=183417.8
+    # 3 ch=1683 gamma=1.652 err_share=  0.1% cum= 94.4% clip=79 y2=140230.1
+    # 4 ch=2192 gamma=1.512 err_share=  0.0% cum= 94.5% clip=2 y2=123944.0
+    # 5 ch=2123 gamma=1.543 err_share=  0.0% cum= 94.5% clip=45 y2=86035.7
+    # 6 ch=1957 gamma=1.555 err_share=  0.0% cum= 94.5% clip=0 y2=65758.5
+    # 7 ch= 535 gamma=0.596 err_share=  0.0% cum= 94.5% clip=0 y2=25591.1
+    # 8 ch= 454 gamma=1.434 err_share=  0.0% cum= 94.5% clip=0 y2=38851.3
+    # 9 ch=1757 gamma=1.469 err_share=  0.0% cum= 94.6% clip=0 y2=26668.4
+    #10 ch=1405 gamma=1.069 err_share=  0.0% cum= 94.6% clip=0 y2=23768.4
+
+=== blk.2 attn_norm  NMSE=0.0201  tokens=2630 ===
+  Top 10 채널 (err 기여도):
+    # 1 ch=1002 gamma=1.270 err_share= 58.5% cum= 58.5% clip=2301 y2=2041248.1
+    # 2 ch= 114 gamma=2.031 err_share=  0.8% cum= 59.3% clip=318 y2=700100.4
+    # 3 ch=1683 gamma=1.930 err_share=  0.1% cum= 59.3% clip=87 y2=552816.3
+    # 4 ch= 367 gamma=2.891 err_share=  0.1% cum= 59.4% clip=0 y2=27045.9
+    # 5 ch=1393 gamma=2.797 err_share=  0.1% cum= 59.4% clip=0 y2=24779.6
+    # 6 ch=1405 gamma=2.430 err_share=  0.0% cum= 59.5% clip=0 y2=107562.2
+    # 7 ch= 540 gamma=2.242 err_share=  0.0% cum= 59.5% clip=0 y2=32436.1
+    # 8 ch=2203 gamma=2.211 err_share=  0.0% cum= 59.5% clip=0 y2=8121.3
+    # 9 ch=1570 gamma=2.211 err_share=  0.0% cum= 59.6% clip=0 y2=27714.3
+    #10 ch=1269 gamma=2.117 err_share=  0.0% cum= 59.6% clip=0 y2=5386.4
+
+[✓] channel_error.csv 저장 (11520 행)

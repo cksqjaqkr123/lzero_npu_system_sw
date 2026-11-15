@@ -1,0 +1,36 @@
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[*] Tokenizer: transformers (vocab=256000)
+[*] conv0 S=100 capturing gate...
+[*] conv1 S=106 capturing gate...
+[*] conv2 S=107 capturing gate...
+[*] conv3 S=96 capturing gate...
+[*] gate 수집 완료, Local NMSE 계산 중...
+  blk.0: nonBOS absmax=8.570 BOS absmax=7.027 ratio=0.82
+  blk.1: nonBOS absmax=11.852 BOS absmax=14.414 ratio=1.22
+  blk.2: nonBOS absmax=6.766 BOS absmax=4.844 ratio=0.72
+  blk.3: nonBOS absmax=5.090 BOS absmax=3.082 ratio=0.61
+  blk.4: nonBOS absmax=3.947 BOS absmax=3.354 ratio=0.85
+  blk.5: nonBOS absmax=4.324 BOS absmax=3.758 ratio=0.87
+  blk.6: nonBOS absmax=3.334 BOS absmax=3.613 ratio=1.08
+  blk.7: nonBOS absmax=5.297 BOS absmax=3.053 ratio=0.58
+  blk.8: nonBOS absmax=4.602 BOS absmax=3.332 ratio=0.72
+  blk.9: nonBOS absmax=3.750 BOS absmax=2.434 ratio=0.65
+  blk.10: nonBOS absmax=3.168 BOS absmax=2.639 ratio=0.83
+  blk.11: nonBOS absmax=3.816 BOS absmax=3.305 ratio=0.87
+  blk.12: nonBOS absmax=2.432 BOS absmax=1.931 ratio=0.79
+  blk.13: nonBOS absmax=4.535 BOS absmax=2.660 ratio=0.59
+  blk.14: nonBOS absmax=2.477 BOS absmax=2.105 ratio=0.85
+  blk.15: nonBOS absmax=3.768 BOS absmax=2.516 ratio=0.67
+  blk.16: nonBOS absmax=3.162 BOS absmax=2.520 ratio=0.80
+  blk.17: nonBOS absmax=3.188 BOS absmax=2.387 ratio=0.75
+  blk.18: nonBOS absmax=3.549 BOS absmax=3.770 ratio=1.06
+  blk.19: nonBOS absmax=4.027 BOS absmax=3.092 ratio=0.77
+  blk.20: nonBOS absmax=3.150 BOS absmax=2.965 ratio=0.94
+  blk.21: nonBOS absmax=3.514 BOS absmax=3.117 ratio=0.89
+  blk.22: nonBOS absmax=2.705 BOS absmax=2.316 ratio=0.86
+  blk.23: nonBOS absmax=2.688 BOS absmax=2.025 ratio=0.75
+  blk.24: nonBOS absmax=2.713 BOS absmax=2.270 ratio=0.84
+  blk.25: nonBOS absmax=2.625 BOS absmax=1.933 ratio=0.74
+[✓] gelu_local.csv / gelu_local.json 저장 (diagnostics/ex_norm10_p4/gelu)
+[*] 다음: BOS ratio가 2~3배면 RMSNorm처럼 BOS 문제 있음. 1배 근처면 GELU는 BOS 문제 없음.

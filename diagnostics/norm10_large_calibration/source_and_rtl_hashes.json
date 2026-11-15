@@ -1,7 +1,7 @@
 {
-  "sw_head": "ed29c61757084a5a9708881b4dabb3eba938ba5c",
-  "sw_branch": "lut_cali",
+  "sw_head": "0cdbe21 norm10-large-calib init",
+  "sw_branch": "norm10-large-calib",
   "sw_commit_msg": "chore:norm int10 lut test result & future work",
-  "rtl_head": "need to fetch l-zero-society/2026-1-edge-llm-npu-rtl feat/tpu-rocc-driver",
+  "rtl_head": "c75da8b5c62927998ab6d676c8d2b9599c3d7909",
   "date": "2026-11-06T15:01:56+09:00"
 }

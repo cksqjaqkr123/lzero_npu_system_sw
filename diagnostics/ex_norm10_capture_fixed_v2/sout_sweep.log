@@ -1,0 +1,30 @@
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[*] Tokenizer: transformers (vocab=256000)
+('blk.0', 'attn_norm') s_out: p999=0.01777 p9999=0.06500 absmax=0.15898 p999x2=0.03553
+('blk.1', 'attn_norm') s_out: p999=0.02163 p9999=0.08284 absmax=0.10863 p999x2=0.04325
+('blk.5', 'attn_norm') s_out: p999=0.02023 p9999=0.06813 absmax=0.11435 p999x2=0.04047
+('blk.5', 'ffn_norm') s_out: p999=0.01559 p9999=0.04864 absmax=0.08524 p999x2=0.03118
+('blk.2', 'attn_norm') s_out: p999=0.02972 p9999=0.06137 absmax=0.08939 p999x2=0.05943
+
+=== s_out sweep (NMSE / NMSE w/o super) ===
+  blk.0  attn_norm p999    NMSE=0.1047  NMSE_no_super=0.0057
+  blk.0  attn_norm p9999   NMSE=0.0113  NMSE_no_super=0.0015
+  blk.0  attn_norm absmax  NMSE=0.0022  NMSE_no_super=0.0026
+  blk.0  attn_norm p999_x2 NMSE=0.0488  NMSE_no_super=0.0014
+  blk.1  attn_norm p999    NMSE=0.1456  NMSE_no_super=0.0061
+  blk.1  attn_norm p9999   NMSE=0.0047  NMSE_no_super=0.0058
+  blk.1  attn_norm absmax  NMSE=0.0041  NMSE_no_super=0.0060
+  blk.1  attn_norm p999_x2 NMSE=0.0506  NMSE_no_super=0.0056
+  blk.5  attn_norm p999    NMSE=0.0939  NMSE_no_super=0.0047
+  blk.5  attn_norm p9999   NMSE=0.0143  NMSE_no_super=0.0032
+  blk.5  attn_norm absmax  NMSE=0.0146  NMSE_no_super=0.0036
+  blk.5  attn_norm p999_x2 NMSE=0.0312  NMSE_no_super=0.0030
+  blk.5  ffn_norm  p999    NMSE=0.0561  NMSE_no_super=0.0036
+  blk.5  ffn_norm  p9999   NMSE=0.0117  NMSE_no_super=0.0025
+  blk.5  ffn_norm  absmax  NMSE=0.0120  NMSE_no_super=0.0028
+  blk.5  ffn_norm  p999_x2 NMSE=0.0171  NMSE_no_super=0.0024
+  blk.2  attn_norm p999    NMSE=0.0402  NMSE_no_super=0.0125
+  blk.2  attn_norm p9999   NMSE=0.0088  NMSE_no_super=0.0094
+  blk.2  attn_norm absmax  NMSE=0.0083  NMSE_no_super=0.0096
+  blk.2  attn_norm p999_x2 NMSE=0.0091  NMSE_no_super=0.0094

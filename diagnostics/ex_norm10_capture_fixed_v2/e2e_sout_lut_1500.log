@@ -1,0 +1,32 @@
+[*] LUT: 53 Norms -> 19 clusters, threshold=0.05
+[*] E2E: 8 conv, prefill 256 (목표 ~1500 위치)
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[*] Tokenizer: transformers (vocab=256000)
+[*] conv0 S=204 FP...
+[*] conv0 LUT BOS_FP forward... eval n=203
+  conv0 LUT Top1 176/203=0.867 KL=0.2112 NMSE=0.0205
+[*] conv1 S=200 FP...
+[*] conv1 LUT BOS_FP forward... eval n=199
+  conv1 LUT Top1 138/199=0.693 KL=0.2201 NMSE=0.0052
+[*] conv2 S=193 FP...
+[*] conv2 LUT BOS_FP forward... eval n=192
+  conv2 LUT Top1 177/192=0.922 KL=0.1709 NMSE=0.0093
+[*] conv3 S=200 FP...
+[*] conv3 LUT BOS_FP forward... eval n=199
+  conv3 LUT Top1 162/199=0.814 KL=0.1607 NMSE=0.0075
+[*] conv4 S=208 FP...
+[*] conv4 LUT BOS_FP forward... eval n=207
+  conv4 LUT Top1 169/207=0.816 KL=0.2078 NMSE=0.0082
+[*] conv5 S=200 FP...
+[*] conv5 LUT BOS_FP forward... eval n=199
+  conv5 LUT Top1 177/199=0.889 KL=0.0770 NMSE=0.0035
+[*] conv6 S=214 FP...
+[*] conv6 LUT BOS_FP forward... eval n=213
+  conv6 LUT Top1 170/213=0.798 KL=0.2621 NMSE=0.0050
+[*] conv7 S=195 FP...
+[*] conv7 LUT BOS_FP forward... eval n=194
+  conv7 LUT Top1 162/194=0.835 KL=0.1633 NMSE=0.0069
+[SUMMARY] LUT (19 clusters) Top1 1331/1606=0.829 KL avg 0.1841 NMSE avg 0.0083
+[비교] 기존 per-Norm s_out (53개): Top1 86.5% KL 0.109 (1606개)
+[✓] e2e_sout_lut_1500.json 저장 (n=1606)

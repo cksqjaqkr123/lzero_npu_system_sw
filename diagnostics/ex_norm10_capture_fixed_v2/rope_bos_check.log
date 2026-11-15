@@ -1,0 +1,15 @@
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[*] Tokenizer: transformers (vocab=256000)
+[*] S=100
+[Q] BOS pre max 2.299 rest pre max 15.625 p999 8.938
+[Q] BOS post max 2.299 rest post max 15.625 p999 8.914
+[Q] BOS RoPE diff max 0.000000 (0이면 BOS는 RoPE 안 탐) rest diff 18.008
+  [Q absmax s=0.030577] BOS NMSE 0.0005 rest NMSE 0.0001
+  [Q p999 s=0.017490] BOS NMSE 0.0002 rest NMSE 0.0074
+[K] BOS pre max 4.270 rest pre max 17.125 p999 9.688
+[K] BOS post max 4.270 rest post max 17.125 p999 9.711
+[K] BOS RoPE diff max 0.000000 (0이면 BOS는 RoPE 안 탐) rest diff 10.938
+  [K absmax s=0.033513] BOS NMSE 0.0002 rest NMSE 0.0001
+  [K p999 s=0.018958] BOS NMSE 0.0001 rest NMSE 0.0119
+[✓] rope_bos_check.json 저장

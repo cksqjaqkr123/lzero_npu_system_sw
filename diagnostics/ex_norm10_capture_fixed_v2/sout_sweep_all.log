@@ -1,0 +1,127 @@
+[*] best s_in 로드: 53 Norm
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[*] Tokenizer: transformers (vocab=256000)
+[*] hist pass conv 0 done
+[*] hist pass conv 1 done
+[*] hist pass conv 2 done
+[*] hist pass conv 3 done
+[*] hist pass conv 4 done
+[*] hist pass conv 5 done
+[*] hist pass conv 6 done
+[*] hist pass conv 7 done
+blk.0        attn_norm s_out p999=0.01771 p9999=0.06507 absmax=0.15898
+blk.0        ffn_norm  s_out p999=0.03493 p9999=0.05568 absmax=0.07111
+blk.1        attn_norm s_out p999=0.02162 p9999=0.08288 absmax=0.10863
+blk.1        ffn_norm  s_out p999=0.02280 p9999=0.03317 absmax=0.04307
+blk.10       attn_norm s_out p999=0.01575 p9999=0.02554 absmax=0.05139
+blk.10       ffn_norm  s_out p999=0.00969 p9999=0.01536 absmax=0.03071
+blk.11       attn_norm s_out p999=0.01497 p9999=0.02280 absmax=0.04465
+blk.11       ffn_norm  s_out p999=0.00930 p9999=0.01497 absmax=0.02896
+blk.12       attn_norm s_out p999=0.01791 p9999=0.02515 absmax=0.05094
+blk.12       ffn_norm  s_out p999=0.00988 p9999=0.01771 absmax=0.02881
+blk.13       attn_norm s_out p999=0.01517 p9999=0.02162 absmax=0.04481
+blk.13       ffn_norm  s_out p999=0.00793 p9999=0.01282 absmax=0.02688
+blk.14       attn_norm s_out p999=0.01751 p9999=0.02769 absmax=0.05820
+blk.14       ffn_norm  s_out p999=0.00734 p9999=0.01243 absmax=0.02624
+blk.15       attn_norm s_out p999=0.01614 p9999=0.02456 absmax=0.05167
+blk.15       ffn_norm  s_out p999=0.00773 p9999=0.01321 absmax=0.02744
+blk.16       attn_norm s_out p999=0.01712 p9999=0.02867 absmax=0.05977
+blk.16       ffn_norm  s_out p999=0.00832 p9999=0.01438 absmax=0.02957
+blk.17       attn_norm s_out p999=0.01986 p9999=0.03023 absmax=0.06290
+blk.17       ffn_norm  s_out p999=0.00930 p9999=0.01575 absmax=0.03098
+blk.18       attn_norm s_out p999=0.02182 p9999=0.03865 absmax=0.06056
+blk.18       ffn_norm  s_out p999=0.01164 p9999=0.01947 absmax=0.03866
+blk.19       attn_norm s_out p999=0.02123 p9999=0.03708 absmax=0.06783
+blk.19       ffn_norm  s_out p999=0.01301 p9999=0.02182 absmax=0.04150
+blk.2        attn_norm s_out p999=0.02965 p9999=0.06135 absmax=0.08939
+blk.2        ffn_norm  s_out p999=0.01810 p9999=0.02730 absmax=0.03746
+blk.20       attn_norm s_out p999=0.02554 p9999=0.04628 absmax=0.06903
+blk.20       ffn_norm  s_out p999=0.01321 p9999=0.02162 absmax=0.03734
+blk.21       attn_norm s_out p999=0.02593 p9999=0.04119 absmax=0.06727
+blk.21       ffn_norm  s_out p999=0.01262 p9999=0.02084 absmax=0.03324
+blk.22       attn_norm s_out p999=0.03141 p9999=0.05959 absmax=0.07617
+blk.22       ffn_norm  s_out p999=0.01184 p9999=0.02045 absmax=0.03155
+blk.23       attn_norm s_out p999=0.03219 p9999=0.05705 absmax=0.07196
+blk.23       ffn_norm  s_out p999=0.01145 p9999=0.01947 absmax=0.02941
+blk.24       attn_norm s_out p999=0.02945 p9999=0.04765 absmax=0.06528
+blk.24       ffn_norm  s_out p999=0.01262 p9999=0.02143 absmax=0.03152
+blk.25       attn_norm s_out p999=0.02554 p9999=0.04295 absmax=0.06203
+blk.25       ffn_norm  s_out p999=0.01380 p9999=0.02280 absmax=0.04015
+blk.3        attn_norm s_out p999=0.02397 p9999=0.03571 absmax=0.05146
+blk.3        ffn_norm  s_out p999=0.02182 p9999=0.03160 absmax=0.04242
+blk.4        attn_norm s_out p999=0.02339 p9999=0.04843 absmax=0.07643
+blk.4        ffn_norm  s_out p999=0.01869 p9999=0.02769 absmax=0.04437
+blk.5        attn_norm s_out p999=0.02025 p9999=0.06820 absmax=0.11435
+blk.5        ffn_norm  s_out p999=0.01556 p9999=0.04863 absmax=0.08524
+blk.6        attn_norm s_out p999=0.02495 p9999=0.05900 absmax=0.10341
+blk.6        ffn_norm  s_out p999=0.01497 p9999=0.03160 absmax=0.05758
+blk.7        attn_norm s_out p999=0.01771 p9999=0.03474 absmax=0.06365
+blk.7        ffn_norm  s_out p999=0.01477 p9999=0.02358 absmax=0.04476
+blk.8        attn_norm s_out p999=0.01986 p9999=0.03415 absmax=0.06353
+blk.8        ffn_norm  s_out p999=0.01497 p9999=0.02260 absmax=0.04216
+blk.9        attn_norm s_out p999=0.01810 p9999=0.02926 absmax=0.05623
+blk.9        ffn_norm  s_out p999=0.01145 p9999=0.01712 absmax=0.03314
+output_norm  final_norm s_out p999=0.03708 p9999=0.05841 absmax=0.07286
+[*] nmse pass conv 0 done
+[*] nmse pass conv 1 done
+[*] nmse pass conv 2 done
+[*] nmse pass conv 3 done
+[*] nmse pass conv 4 done
+[*] nmse pass conv 5 done
+[*] nmse pass conv 6 done
+[*] nmse pass conv 7 done
+  blk.0        attn_norm best_s_out=absmax NMSE=0.00216  (p999=0.10500 p9999=0.01124)
+  blk.0        ffn_norm  best_s_out=absmax NMSE=0.00524  (p999=0.02169 p9999=0.00532)
+  blk.1        attn_norm best_s_out=absmax NMSE=0.00413  (p999=0.14562 p9999=0.00472)
+  blk.1        ffn_norm  best_s_out=absmax NMSE=0.00087  (p999=0.00523 p9999=0.00091)
+  blk.10       attn_norm best_s_out=p9999  NMSE=0.00186  (p999=0.00498 p9999=0.00186)
+  blk.10       ffn_norm  best_s_out=p9999  NMSE=0.00176  (p999=0.00408 p9999=0.00176)
+  blk.11       attn_norm best_s_out=p9999  NMSE=0.00164  (p999=0.00353 p9999=0.00164)
+  blk.11       ffn_norm  best_s_out=p9999  NMSE=0.00152  (p999=0.00406 p9999=0.00152)
+  blk.12       attn_norm best_s_out=p9999  NMSE=0.00147  (p999=0.00275 p9999=0.00147)
+  blk.12       ffn_norm  best_s_out=absmax NMSE=0.00129  (p999=0.00666 p9999=0.00138)
+  blk.13       attn_norm best_s_out=p9999  NMSE=0.00119  (p999=0.00268 p9999=0.00119)
+  blk.13       ffn_norm  best_s_out=p9999  NMSE=0.00118  (p999=0.00393 p9999=0.00118)
+  blk.14       attn_norm best_s_out=p9999  NMSE=0.00116  (p999=0.00361 p9999=0.00116)
+  blk.14       ffn_norm  best_s_out=p9999  NMSE=0.00116  (p999=0.00428 p9999=0.00116)
+  blk.15       attn_norm best_s_out=p9999  NMSE=0.00114  (p999=0.00334 p9999=0.00114)
+  blk.15       ffn_norm  best_s_out=p9999  NMSE=0.00117  (p999=0.00458 p9999=0.00117)
+  blk.16       attn_norm best_s_out=p9999  NMSE=0.00116  (p999=0.00409 p9999=0.00116)
+  blk.16       ffn_norm  best_s_out=p9999  NMSE=0.00112  (p999=0.00467 p9999=0.00112)
+  blk.17       attn_norm best_s_out=p9999  NMSE=0.00128  (p999=0.00380 p9999=0.00128)
+  blk.17       ffn_norm  best_s_out=p9999  NMSE=0.00109  (p999=0.00487 p9999=0.00109)
+  blk.18       attn_norm best_s_out=absmax NMSE=0.00119  (p999=0.00836 p9999=0.00124)
+  blk.18       ffn_norm  best_s_out=p9999  NMSE=0.00112  (p999=0.00451 p9999=0.00112)
+  blk.19       attn_norm best_s_out=p9999  NMSE=0.00142  (p999=0.00765 p9999=0.00142)
+  blk.19       ffn_norm  best_s_out=p9999  NMSE=0.00116  (p999=0.00524 p9999=0.00116)
+  blk.2        attn_norm best_s_out=absmax NMSE=0.00835  (p999=0.04037 p9999=0.00882)
+  blk.2        ffn_norm  best_s_out=absmax NMSE=0.00819  (p999=0.01300 p9999=0.00829)
+  blk.20       attn_norm best_s_out=absmax NMSE=0.00140  (p999=0.01164 p9999=0.00149)
+  blk.20       ffn_norm  best_s_out=p9999  NMSE=0.00124  (p999=0.00523 p9999=0.00124)
+  blk.21       attn_norm best_s_out=p9999  NMSE=0.00135  (p999=0.00590 p9999=0.00135)
+  blk.21       ffn_norm  best_s_out=p9999  NMSE=0.00155  (p999=0.00565 p9999=0.00155)
+  blk.22       attn_norm best_s_out=absmax NMSE=0.00104  (p999=0.01728 p9999=0.00135)
+  blk.22       ffn_norm  best_s_out=p9999  NMSE=0.00156  (p999=0.00611 p9999=0.00156)
+  blk.23       attn_norm best_s_out=absmax NMSE=0.00097  (p999=0.01241 p9999=0.00109)
+  blk.23       ffn_norm  best_s_out=p9999  NMSE=0.00169  (p999=0.00592 p9999=0.00169)
+  blk.24       attn_norm best_s_out=absmax NMSE=0.00096  (p999=0.00909 p9999=0.00101)
+  blk.24       ffn_norm  best_s_out=p9999  NMSE=0.00157  (p999=0.00677 p9999=0.00157)
+  blk.25       attn_norm best_s_out=absmax NMSE=0.00097  (p999=0.00827 p9999=0.00100)
+  blk.25       ffn_norm  best_s_out=p9999  NMSE=0.00216  (p999=0.00711 p9999=0.00216)
+  blk.3        attn_norm best_s_out=absmax NMSE=0.00703  (p999=0.01254 p9999=0.00717)
+  blk.3        ffn_norm  best_s_out=absmax NMSE=0.00713  (p999=0.01088 p9999=0.00720)
+  blk.4        attn_norm best_s_out=p9999  NMSE=0.00479  (p999=0.02565 p9999=0.00479)
+  blk.4        ffn_norm  best_s_out=p9999  NMSE=0.00389  (p999=0.00692 p9999=0.00389)
+  blk.5        attn_norm best_s_out=p9999  NMSE=0.01428  (p999=0.09377 p9999=0.01428)
+  blk.5        ffn_norm  best_s_out=p9999  NMSE=0.01171  (p999=0.05621 p9999=0.01171)
+  blk.6        attn_norm best_s_out=p9999  NMSE=0.00703  (p999=0.02941 p9999=0.00703)
+  blk.6        ffn_norm  best_s_out=p9999  NMSE=0.00493  (p999=0.01589 p9999=0.00493)
+  blk.7        attn_norm best_s_out=p9999  NMSE=0.00432  (p999=0.01283 p9999=0.00432)
+  blk.7        ffn_norm  best_s_out=p9999  NMSE=0.00317  (p999=0.00587 p9999=0.00317)
+  blk.8        attn_norm best_s_out=p9999  NMSE=0.00324  (p999=0.00767 p9999=0.00324)
+  blk.8        ffn_norm  best_s_out=p9999  NMSE=0.00253  (p999=0.00433 p9999=0.00253)
+  blk.9        attn_norm best_s_out=p9999  NMSE=0.00259  (p999=0.00553 p9999=0.00259)
+  blk.9        ffn_norm  best_s_out=p9999  NMSE=0.00172  (p999=0.00375 p9999=0.00172)
+  output_norm  final_norm best_s_out=p9999  NMSE=0.00090  (p999=0.00358 p9999=0.00090)
+[✓] sout_sweep_all.csv 저장 (159 행)

@@ -1,0 +1,30 @@
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[*] Tokenizer: transformers (vocab=256000)
+[*] Validation: 8 conv, prefill 256 (calibration과 다른 대화)
+[*] conv0 S=204 FP...
+[*] conv0 BOS_FP forward... eval n=203
+  conv0 BOS_FP Top1 181/203=0.892 KL=0.1041 NMSE=0.0180
+[*] conv1 S=200 FP...
+[*] conv1 BOS_FP forward... eval n=199
+  conv1 BOS_FP Top1 164/199=0.824 KL=0.0980 NMSE=0.0037
+[*] conv2 S=193 FP...
+[*] conv2 BOS_FP forward... eval n=192
+  conv2 BOS_FP Top1 184/192=0.958 KL=0.0386 NMSE=0.0039
+[*] conv3 S=200 FP...
+[*] conv3 BOS_FP forward... eval n=199
+  conv3 BOS_FP Top1 173/199=0.869 KL=0.0641 NMSE=0.0036
+[*] conv4 S=208 FP...
+[*] conv4 BOS_FP forward... eval n=207
+  conv4 BOS_FP Top1 169/207=0.816 KL=0.1601 NMSE=0.0068
+[*] conv5 S=200 FP...
+[*] conv5 BOS_FP forward... eval n=199
+  conv5 BOS_FP Top1 185/199=0.930 KL=0.0529 NMSE=0.0040
+[*] conv6 S=214 FP...
+[*] conv6 BOS_FP forward... eval n=213
+  conv6 BOS_FP Top1 184/213=0.864 KL=0.1691 NMSE=0.0068
+[*] conv7 S=195 FP...
+[*] conv7 BOS_FP forward... eval n=194
+  conv7 BOS_FP Top1 149/194=0.768 KL=0.1883 NMSE=0.0042
+[SUMMARY] Validation (calibration과 다른 대화) Top1 1389/1606=0.865 KL avg 0.1094 NMSE avg 0.0064
+[✓] e2e_1024_validation.json 저장 (n=1606)

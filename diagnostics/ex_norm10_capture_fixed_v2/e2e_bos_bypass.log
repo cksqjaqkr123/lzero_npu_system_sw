@@ -1,0 +1,10 @@
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[*] Tokenizer: transformers (vocab=256000)
+[*] S=100 FP baseline...
+[*] eval n=32
+[*] all_INT10 forward...
+  all_INT10    Top1 0/32=0.000 KL=11.0273 NMSE=0.3433
+[*] BOS_FP forward...
+  BOS_FP       Top1 29/32=0.906 KL=0.0601 NMSE=0.0198
+[✓] e2e_bos_bypass.json 저장

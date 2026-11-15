@@ -1,0 +1,40 @@
+[*] Hybrid 기준: ratio < 2.0 -> p999 선택 7개 / 전체 53개
+  blk.3.ffn_norm: p999 s_out=0.021820 NMSE p999=0.01088 vs p9999=0.00720 ratio=1.51
+  blk.2.ffn_norm: p999 s_out=0.018102 NMSE p999=0.01300 vs p9999=0.00829 ratio=1.57
+  blk.8.ffn_norm: p999 s_out=0.014971 NMSE p999=0.00433 vs p9999=0.00253 ratio=1.71
+  blk.3.attn_norm: p999 s_out=0.023973 NMSE p999=0.01254 vs p9999=0.00717 ratio=1.75
+  blk.4.ffn_norm: p999 s_out=0.018689 NMSE p999=0.00692 vs p9999=0.00389 ratio=1.78
+  blk.7.ffn_norm: p999 s_out=0.014775 NMSE p999=0.00587 vs p9999=0.00317 ratio=1.85
+  blk.12.attn_norm: p999 s_out=0.017906 NMSE p999=0.00275 vs p9999=0.00147 ratio=1.87
+[*] 나머지 46개는 p9999
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[*] Tokenizer: transformers (vocab=256000)
+[*] conv0 S=204 FP...
+[*] conv0 Hybrid BOS_FP forward... eval n=203
+  conv0 Hybrid Top1 170/203=0.837 KL=0.1970 NMSE=0.0239
+[*] conv1 S=200 FP...
+[*] conv1 Hybrid BOS_FP forward... eval n=199
+  conv1 Hybrid Top1 128/199=0.643 KL=0.3508 NMSE=0.0074
+[*] conv2 S=193 FP...
+[*] conv2 Hybrid BOS_FP forward... eval n=192
+  conv2 Hybrid Top1 176/192=0.917 KL=0.1889 NMSE=0.0090
+[*] conv3 S=200 FP...
+[*] conv3 Hybrid BOS_FP forward... eval n=199
+  conv3 Hybrid Top1 151/199=0.759 KL=0.2874 NMSE=0.0090
+[*] conv4 S=208 FP...
+[*] conv4 Hybrid BOS_FP forward... eval n=207
+  conv4 Hybrid Top1 157/207=0.758 KL=0.3537 NMSE=0.0094
+[*] conv5 S=200 FP...
+[*] conv5 Hybrid BOS_FP forward... eval n=199
+  conv5 Hybrid Top1 177/199=0.889 KL=0.1313 NMSE=0.0042
+[*] conv6 S=214 FP...
+[*] conv6 Hybrid BOS_FP forward... eval n=213
+  conv6 Hybrid Top1 170/213=0.798 KL=0.2488 NMSE=0.0070
+[*] conv7 S=195 FP...
+[*] conv7 Hybrid BOS_FP forward... eval n=194
+  conv7 Hybrid Top1 153/194=0.789 KL=0.2358 NMSE=0.0093
+[SUMMARY] Hybrid (p999 7개 + p9999 46개, 클러스터링 없음) Top1 1282/1606=0.798 KL avg 0.2492 NMSE avg 0.0099
+[비교] per-Norm p9999 전부 (53개, 클러스터링 없음): Top1 86.5% KL 0.109
+[비교] 클러스터 LUT p9999 (19개): Top1 82.9% KL 0.184
+[✓] e2e_hybrid_p999.json 저장 (n=1606)

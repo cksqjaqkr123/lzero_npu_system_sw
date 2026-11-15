@@ -1,0 +1,10 @@
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[*] Tokenizer: transformers (vocab=256000)
+[*] S=100 FP baseline...
+[*] s_out (p9999) = 0.06506849315068493
+[*] both_s_in_p999_0.00437 s_in=0.00437 forward...
+  both_s_in_p999_0.00437    Top1 0/32=0.000 KL=9.8619 NMSE=0.3675
+[*] both_s_in_p9999_0.016 s_in=0.01600 forward...
+  both_s_in_p9999_0.016     Top1 27/32=0.844 KL=0.1609 NMSE=0.0351
+[✓] s_in_fixed_both.json 저장

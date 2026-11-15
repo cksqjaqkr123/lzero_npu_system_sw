@@ -1,0 +1,65 @@
+usage: run_e2e_gelu_only.py [-h] [--gguf GGUF] [--gelu_csv GELU_CSV]
+                            [--output_dir OUTPUT_DIR] [--n_conv N_CONV]
+                            [--prefill PREFILL] [--mode {absmax,p9999,both}]
+run_e2e_gelu_only.py: error: unrecognized arguments: --gelu_local diagnostics/ex_norm10_p4/gelu/gelu_local.json
+python3: can't open file '/home/parkchanbum/lzero_npu_system_sw/diagnostics/ex_norm10_p4/gelu/run_e2e_gelu_only_fixed.py': [Errno 2] No such file or directory
+[START] GELU-only E2E n_conv=8 prefill=256 mode=both
+[DATA] layers sin=26 sout=26
+  s_in blk.0: best=absmax s=0.016772
+  s_in blk.1: best=absmax s=0.023193
+  s_in blk.10: best=p9999 s=0.004938
+  s_in blk.11: best=p9999 s=0.005770
+  s_in blk.12: best=absmax s=0.004759
+  s_in blk.13: best=p9999 s=0.004918
+  s_in blk.14: best=absmax s=0.004847
+  s_in blk.15: best=absmax s=0.007373
+  s_in blk.16: best=p9999 s=0.004616
+  s_in blk.17: best=p9999 s=0.005217
+  s_in blk.18: best=p9999 s=0.005351
+  s_in blk.19: best=p9999 s=0.005713
+  s_in blk.2: best=absmax s=0.013240
+  s_in blk.20: best=p9999 s=0.005163
+  s_in blk.21: best=p9999 s=0.005212
+  s_in blk.22: best=p9999 s=0.004059
+  s_in blk.23: best=p9999 s=0.003983
+  s_in blk.24: best=p9999 s=0.004273
+  s_in blk.25: best=p9999 s=0.004170
+  s_in blk.3: best=p9999 s=0.005898
+  s_in blk.4: best=p9999 s=0.006027
+  s_in blk.5: best=p9999 s=0.006058
+  s_in blk.6: best=p9999 s=0.004889
+  s_in blk.7: best=absmax s=0.010366
+  s_in blk.8: best=p9999 s=0.007113
+  s_in blk.9: best=absmax s=0.007339
+[DATA] s_in/s_out 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CONV] 8 convs built
+[*] conv0 S=204 FP start...
+[*] conv0 FP done
+[*] conv0 GELU-only s_out=absmax start...
+  [DONE] conv0 GELU absmax Top1 198/203=0.975 KL=0.0085 NMSE=0.0005
+[*] conv0 GELU-only s_out=p9999 start...
+  [DONE] conv0 GELU p9999 Top1 158/203=0.778 KL=0.3479 NMSE=0.0056
+[*] conv1 S=200 FP start...
+[*] conv1 FP done
+[*] conv1 GELU-only s_out=absmax start...
+  [DONE] conv1 GELU absmax Top1 195/199=0.980 KL=0.0069 NMSE=0.0003
+[*] conv1 GELU-only s_out=p9999 start...
+  [DONE] conv1 GELU p9999 Top1 141/199=0.709 KL=0.4850 NMSE=0.0058
+[*] conv2 S=193 FP start...
+[*] conv2 FP done
+[*] conv2 GELU-only s_out=absmax start...
+  [DONE] conv2 GELU absmax Top1 185/192=0.964 KL=0.0045 NMSE=0.0003
+[*] conv2 GELU-only s_out=p9999 start...
+  [DONE] conv2 GELU p9999 Top1 162/192=0.844 KL=0.2323 NMSE=0.0051
+[*] conv3 S=200 FP start...
+[*] conv3 FP done
+[*] conv3 GELU-only s_out=absmax start...
+  [DONE] conv3 GELU absmax Top1 193/199=0.970 KL=0.0043 NMSE=0.0002
+[*] conv3 GELU-only s_out=p9999 start...
+  [DONE] conv3 GELU p9999 Top1 149/199=0.749 KL=0.2424 NMSE=0.0043
+[*] conv4 S=208 FP start...

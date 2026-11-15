@@ -1,0 +1,29 @@
+[
+  {
+    "mode": "input_only",
+    "top1": 0.0,
+    "agree": 0,
+    "n": 32,
+    "kl": 11.267257013593674,
+    "logits_nmse": 0.3824532258047131,
+    "eval": "prompt_last32"
+  },
+  {
+    "mode": "output_only",
+    "top1": 0.875,
+    "agree": 28,
+    "n": 32,
+    "kl": 0.09320563374930481,
+    "logits_nmse": 0.03284536562855988,
+    "eval": "prompt_last32"
+  },
+  {
+    "mode": "both_p9999",
+    "top1": 0.0,
+    "agree": 0,
+    "n": 32,
+    "kl": 9.861858078046698,
+    "logits_nmse": 0.3674916777587805,
+    "eval": "prompt_last32"
+  }
+]

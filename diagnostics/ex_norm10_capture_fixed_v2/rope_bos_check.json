@@ -1,0 +1,32 @@
+[
+  {
+    "tensor": "Q",
+    "bos_pre_max": 2.298828125,
+    "rest_pre_max": 15.625,
+    "rest_pre_p999": 8.9375,
+    "bos_post_max": 2.298828125,
+    "rest_post_max": 15.625,
+    "rest_post_p999": 8.9140625,
+    "bos_pre_mean_abs": 0.3087686002254486,
+    "rest_pre_mean_abs": 0.7398846745491028,
+    "bos_post_mean_abs": 0.3087686002254486,
+    "rest_post_mean_abs": 0.7386263608932495,
+    "bos_rope_diff_max": 0.0,
+    "rest_rope_diff_max": 18.0078125
+  },
+  {
+    "tensor": "K",
+    "bos_pre_max": 4.26953125,
+    "rest_pre_max": 17.125,
+    "rest_pre_p999": 9.6875,
+    "bos_post_max": 4.26953125,
+    "rest_post_max": 17.125,
+    "rest_post_p999": 9.7109375,
+    "bos_pre_mean_abs": 0.31242626905441284,
+    "rest_pre_mean_abs": 0.7805323004722595,
+    "bos_post_mean_abs": 0.31242626905441284,
+    "rest_post_mean_abs": 0.7807191610336304,
+    "bos_rope_diff_max": 0.0,
+    "rest_rope_diff_max": 10.9375
+  }
+]
