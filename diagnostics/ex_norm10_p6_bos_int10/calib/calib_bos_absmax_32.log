@@ -1,0 +1,3 @@
+[CALIB_BOS_ABSMAX] n_conv=32 prefill=256
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024

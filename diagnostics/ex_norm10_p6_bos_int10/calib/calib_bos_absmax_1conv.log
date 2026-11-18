@@ -1,0 +1,6 @@
+[CALIB_BOS_ABSMAX] n_conv=1 prefill=256
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[*] Tokenizer: transformers (vocab=256000)
+[*] calib BOS conv0 done
+[DONE] saved to diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53

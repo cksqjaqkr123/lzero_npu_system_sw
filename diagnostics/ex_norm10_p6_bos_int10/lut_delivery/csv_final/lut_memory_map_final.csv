@@ -1,0 +1,4 @@
+section,base_addr,total_bytes,entries,note
+norm_scales,0,848,212,"FP32, 53 norms x 4"
+gelu_luts,2048,53248,26598,"INT16, npu_lut_tables.json gelu lut 그대로"
+rope_scales,55296,208,52,"FP32, rope_calib.json s_q/s_k"

@@ -1,0 +1,1346 @@
+[driver] resume: 0/64 done, output=diagnostics/ex_norm10_p6_bos_int10/results/final_64conv
+[00] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=0 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=204 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 22/26=0.846 KL=0.0932 NMSE=0.0045
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_000/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 22/26=0.846 KL avg 0.0932
+[00] OK 188.8s
+[01] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=1 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=200 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 25/26=0.962 KL=0.0569 NMSE=0.0037
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_001/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 25/26=0.962 KL avg 0.0569
+[01] OK 182.7s
+[02] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=2 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=193 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 21/26=0.808 KL=0.0793 NMSE=0.0036
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_002/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 21/26=0.808 KL avg 0.0793
+[02] OK 181.0s
+[03] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=3 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=200 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 21/26=0.808 KL=0.1243 NMSE=0.0046
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_003/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 21/26=0.808 KL avg 0.1243
+[03] OK 184.6s
+[04] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=4 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=208 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 19/26=0.731 KL=0.3265 NMSE=0.0106
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_004/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 19/26=0.731 KL avg 0.3265
+[04] OK 183.3s
+[05] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=5 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=200 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 25/26=0.962 KL=0.0158 NMSE=0.0016
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_005/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 25/26=0.962 KL avg 0.0158
+[05] OK 184.8s
+[06] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=6 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=214 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 26/26=1.000 KL=0.0199 NMSE=0.0032
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_006/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 26/26=1.000 KL avg 0.0199
+[06] OK 185.1s
+[07] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=7 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=195 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 19/26=0.731 KL=0.2073 NMSE=0.0069
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_007/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 19/26=0.731 KL avg 0.2073
+[07] OK 189.6s
+[08] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=8 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=200 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 24/26=0.923 KL=0.0639 NMSE=0.0031
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_008/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 24/26=0.923 KL avg 0.0639
+[08] OK 182.7s
+[09] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=9 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=205 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 24/26=0.923 KL=0.0557 NMSE=0.0027
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_009/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 24/26=0.923 KL avg 0.0557
+[09] OK 186.0s
+[10] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=10 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=192 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 25/26=0.962 KL=0.0398 NMSE=0.0019
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_010/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 25/26=0.962 KL avg 0.0398
+[10] OK 185.7s
+[11] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=11 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=205 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 19/26=0.731 KL=0.3310 NMSE=0.0049
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_011/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 19/26=0.731 KL avg 0.3310
+[11] OK 185.4s
+[12] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=12 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=193 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 22/26=0.846 KL=0.2387 NMSE=0.0138
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_012/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 22/26=0.846 KL avg 0.2387
+[12] OK 185.3s
+[13] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=13 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=208 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 22/26=0.846 KL=0.1314 NMSE=0.0154
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_013/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 22/26=0.846 KL avg 0.1314
+[13] OK 185.7s
+[14] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=14 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=195 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 23/26=0.885 KL=0.0686 NMSE=0.0021
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_014/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 23/26=0.885 KL avg 0.0686
+[14] OK 186.1s
+[15] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=15 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=206 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 20/26=0.769 KL=0.1882 NMSE=0.0067
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_015/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 20/26=0.769 KL avg 0.1882
+[15] OK 183.9s
+[16] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=16 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=195 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 26/26=1.000 KL=0.0226 NMSE=0.0025
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_016/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 26/26=1.000 KL avg 0.0226
+[16] OK 185.6s
+[17] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=17 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=203 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 26/26=1.000 KL=0.0026 NMSE=0.0040
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_017/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 26/26=1.000 KL avg 0.0026
+[17] OK 182.3s
+[18] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=18 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=207 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 25/26=0.962 KL=0.0702 NMSE=0.0040
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_018/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 25/26=0.962 KL avg 0.0702
+[18] OK 1411.7s
+[19] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=19 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=211 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 26/26=1.000 KL=0.0346 NMSE=0.0041
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_019/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 26/26=1.000 KL avg 0.0346
+[19] OK 187.8s
+[20] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=20 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=213 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 26/26=1.000 KL=0.0072 NMSE=0.0054
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_020/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 26/26=1.000 KL avg 0.0072
+[20] OK 185.1s
+[21] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=21 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=209 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 17/26=0.654 KL=0.3004 NMSE=0.0146
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_021/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 17/26=0.654 KL avg 0.3004
+[21] OK 186.9s
+[22] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=22 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=201 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 20/26=0.769 KL=0.2392 NMSE=0.0061
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_022/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 20/26=0.769 KL avg 0.2392
+[22] OK 182.6s
+[23] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=23 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=200 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 24/26=0.923 KL=0.1240 NMSE=0.0055
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_023/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 24/26=0.923 KL avg 0.1240
+[23] OK 182.4s
+[24] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=24 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=201 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 23/26=0.885 KL=0.1240 NMSE=0.0063
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_024/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 23/26=0.885 KL avg 0.1240
+[24] OK 185.2s
+[25] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=25 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=204 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 25/26=0.962 KL=0.0731 NMSE=0.0048
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_025/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 25/26=0.962 KL avg 0.0731
+[25] OK 185.7s
+[26] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=26 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=211 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 18/26=0.692 KL=0.2316 NMSE=0.0048
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_026/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 18/26=0.692 KL avg 0.2316
+[26] OK 184.4s
+[27] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=27 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=209 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 21/26=0.808 KL=0.1725 NMSE=0.0094
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_027/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 21/26=0.808 KL avg 0.1725
+[27] OK 183.9s
+[28] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=28 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=204 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 22/26=0.846 KL=0.2722 NMSE=0.0064
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_028/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 22/26=0.846 KL avg 0.2722
+[28] OK 183.2s
+[29] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=29 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=203 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 21/26=0.808 KL=0.2673 NMSE=0.0096
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_029/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 21/26=0.808 KL avg 0.2673
+[29] OK 183.3s
+[30] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=30 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=205 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 26/26=1.000 KL=0.0237 NMSE=0.0052
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_030/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 26/26=1.000 KL avg 0.0237
+[30] OK 183.7s
+[31] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=31 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=207 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 20/26=0.769 KL=0.1649 NMSE=0.0042
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_031/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 20/26=0.769 KL avg 0.1649
+[31] OK 186.2s
+[32] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=32 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=204 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 20/26=0.769 KL=0.3282 NMSE=0.0054
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_032/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 20/26=0.769 KL avg 0.3282
+[32] OK 186.2s
+[33] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=33 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=205 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 23/26=0.885 KL=0.1536 NMSE=0.0088
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_033/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 23/26=0.885 KL avg 0.1536
+[33] OK 183.3s
+[34] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=34 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=203 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 21/26=0.808 KL=0.2388 NMSE=0.0159
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_034/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 21/26=0.808 KL avg 0.2388
+[34] OK 184.0s
+[35] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=35 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=194 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 20/26=0.769 KL=0.1917 NMSE=0.0038
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_035/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 20/26=0.769 KL avg 0.1917
+[35] OK 182.0s
+[36] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=36 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=200 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 23/26=0.885 KL=0.0954 NMSE=0.0083
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_036/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 23/26=0.885 KL avg 0.0954
+[36] OK 183.0s
+[37] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=37 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=191 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 22/26=0.846 KL=0.1076 NMSE=0.0054
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_037/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 22/26=0.846 KL avg 0.1076
+[37] OK 181.5s
+[38] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=38 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=194 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 25/26=0.962 KL=0.1936 NMSE=0.0226
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_038/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 25/26=0.962 KL avg 0.1936
+[38] OK 185.3s
+[39] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=39 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=203 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 22/26=0.846 KL=0.1539 NMSE=0.0050
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_039/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 22/26=0.846 KL avg 0.1539
+[39] OK 183.5s
+[40] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=40 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=204 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 16/26=0.615 KL=0.2701 NMSE=0.0049
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_040/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 16/26=0.615 KL avg 0.2701
+[40] OK 183.3s
+[41] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=41 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=199 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 24/26=0.923 KL=0.0839 NMSE=0.0035
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_041/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 24/26=0.923 KL avg 0.0839
+[41] OK 185.2s
+[42] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=42 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=196 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 20/26=0.769 KL=0.2842 NMSE=0.0046
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_042/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 20/26=0.769 KL avg 0.2842
+[42] OK 187.9s
+[43] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=43 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=210 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 18/26=0.692 KL=0.1826 NMSE=0.0048
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_043/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 18/26=0.692 KL avg 0.1826
+[43] OK 189.9s
+[44] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=44 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=205 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 19/26=0.731 KL=0.1097 NMSE=0.0035
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_044/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 19/26=0.731 KL avg 0.1097
+[44] OK 186.9s
+[45] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=45 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=202 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 19/26=0.731 KL=0.2336 NMSE=0.0065
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_045/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 19/26=0.731 KL avg 0.2336
+[45] OK 186.2s
+[46] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=46 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=197 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 25/26=0.962 KL=0.0872 NMSE=0.0028
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_046/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 25/26=0.962 KL avg 0.0872
+[46] OK 187.2s
+[47] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=47 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=202 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 26/26=1.000 KL=0.0446 NMSE=0.0059
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_047/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 26/26=1.000 KL avg 0.0446
+[47] OK 188.2s
+[48] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=48 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=195 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 21/26=0.808 KL=0.1444 NMSE=0.0065
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_048/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 21/26=0.808 KL avg 0.1444
+[48] OK 185.2s
+[49] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=49 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=215 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 23/26=0.885 KL=0.2222 NMSE=0.0039
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_049/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 23/26=0.885 KL avg 0.2222
+[49] OK 190.2s
+[50] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=50 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=201 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 25/26=0.962 KL=0.0537 NMSE=0.0032
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_050/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 25/26=0.962 KL avg 0.0537
+[50] OK 183.3s
+[51] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=51 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=197 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 24/26=0.923 KL=0.2371 NMSE=0.0048
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_051/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 24/26=0.923 KL avg 0.2371
+[51] OK 183.2s
+[52] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=52 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=198 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 21/26=0.808 KL=0.1861 NMSE=0.0116
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_052/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 21/26=0.808 KL avg 0.1861
+[52] OK 187.3s
+[53] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=53 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=198 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 23/26=0.885 KL=0.1739 NMSE=0.0038
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_053/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 23/26=0.885 KL avg 0.1739
+[53] OK 188.1s
+[54] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=54 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=202 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 26/26=1.000 KL=0.0195 NMSE=0.0035
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_054/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 26/26=1.000 KL avg 0.0195
+[54] OK 185.9s
+[55] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=55 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=216 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 24/26=0.923 KL=0.0678 NMSE=0.0049
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_055/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 24/26=0.923 KL avg 0.0678
+[55] OK 188.2s
+[56] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=56 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=198 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 22/26=0.846 KL=0.0713 NMSE=0.0041
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_056/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 22/26=0.846 KL avg 0.0713
+[56] OK 189.1s
+[57] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=57 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=192 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 18/26=0.692 KL=0.0835 NMSE=0.0032
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_057/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 18/26=0.692 KL avg 0.0835
+[57] OK 181.7s
+[58] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=58 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=203 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 25/26=0.962 KL=0.0596 NMSE=0.0107
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_058/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 25/26=0.962 KL avg 0.0596
+[58] OK 187.8s
+[59] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=59 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=190 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 22/26=0.846 KL=0.0568 NMSE=0.0018
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_059/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 22/26=0.846 KL avg 0.0568
+[59] OK 181.5s
+[60] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=60 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=204 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 26/26=1.000 KL=0.0084 NMSE=0.0053
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_060/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 26/26=1.000 KL avg 0.0084
+[60] OK 185.0s
+[61] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=61 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=212 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 26/26=1.000 KL=0.0016 NMSE=0.0043
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_061/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 26/26=1.000 KL avg 0.0016
+[61] OK 190.6s
+[62] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=62 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=197 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 19/26=0.731 KL=0.4920 NMSE=0.0162
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_062/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 19/26=0.731 KL avg 0.4920
+[62] OK 196.3s
+[63] run attempt 1/3
+[START] STRICT FIXED Combined E2E n_conv=1 prefill=256
+[DATA] RMSNorm keys sample: ['blk.0.attn_norm', 'blk.0.ffn_norm', 'blk.1.attn_norm', 'blk.1.ffn_norm', 'blk.10.attn_norm'] ... total 53
+[DATA] output_norm 매핑: output_norm.final_norm -> output_norm s_in=0.134150 s_out=0.058415
+[DATA] RMSNorm from diagnostics/ex_norm10_p6_bos_int10/calib/norm_selected_parameters.json
+[DATA] BOS scales from diagnostics/ex_norm10_p6_bos_int10/calib/calib_bos_absmax_1conv.json keys=53
+[DATA] GELU LUT 26개 준비 완료
+[MODEL] loading /home/parkchanbum/models/gemma-2b-q8_0.gguf ...
+[*] detected num_layers = 26
+[*] vocab_size = 256000, hidden = 2304, q_dim = 2048, kv_dim = 1024
+[MODEL] loaded
+[*] Tokenizer: transformers (vocab=256000)
+[CALIB] 기존 diagnostics/ex_norm10_p4/e2e/rope_calib.json 재사용, calibration 스킵
+[CONV] conv_idx=63 -> 1 convs
+[CONV] 1 validation convs
+[*] conv0 S=208 FP start...
+[*] conv0 FP done, Combined Strict start...
+  [DONE] conv0 Combined Strict Top1 18/26=0.692 KL=0.1083 NMSE=0.0060
+[DONE] partial saved to diagnostics/ex_norm10_p6_bos_int10/results/final_64conv/conv_063/e2e_combined_strict_partial.jsonl
+[SUMMARY] Combined Strict Top1 18/26=0.692 KL avg 0.1083
+[63] OK 189.7s
+[driver] all done. aggregate with: python3 aggregate_64conv.py --input_dir diagnostics/ex_norm10_p6_bos_int10/results/final_64conv

@@ -1,0 +1,27 @@
+layer,s_q_addr,s_k_addr,block_size,s_q_ref,s_k_ref
+0,55296,55300,8,rope_calib layer 0 s_q,rope_calib layer 0 s_k
+1,55304,55308,8,rope_calib layer 1 s_q,rope_calib layer 1 s_k
+2,55312,55316,8,rope_calib layer 2 s_q,rope_calib layer 2 s_k
+3,55320,55324,8,rope_calib layer 3 s_q,rope_calib layer 3 s_k
+4,55328,55332,8,rope_calib layer 4 s_q,rope_calib layer 4 s_k
+5,55336,55340,8,rope_calib layer 5 s_q,rope_calib layer 5 s_k
+6,55344,55348,8,rope_calib layer 6 s_q,rope_calib layer 6 s_k
+7,55352,55356,8,rope_calib layer 7 s_q,rope_calib layer 7 s_k
+8,55360,55364,8,rope_calib layer 8 s_q,rope_calib layer 8 s_k
+9,55368,55372,8,rope_calib layer 9 s_q,rope_calib layer 9 s_k
+10,55376,55380,8,rope_calib layer 10 s_q,rope_calib layer 10 s_k
+11,55384,55388,8,rope_calib layer 11 s_q,rope_calib layer 11 s_k
+12,55392,55396,8,rope_calib layer 12 s_q,rope_calib layer 12 s_k
+13,55400,55404,8,rope_calib layer 13 s_q,rope_calib layer 13 s_k
+14,55408,55412,8,rope_calib layer 14 s_q,rope_calib layer 14 s_k
+15,55416,55420,8,rope_calib layer 15 s_q,rope_calib layer 15 s_k
+16,55424,55428,8,rope_calib layer 16 s_q,rope_calib layer 16 s_k
+17,55432,55436,8,rope_calib layer 17 s_q,rope_calib layer 17 s_k
+18,55440,55444,8,rope_calib layer 18 s_q,rope_calib layer 18 s_k
+19,55448,55452,8,rope_calib layer 19 s_q,rope_calib layer 19 s_k
+20,55456,55460,8,rope_calib layer 20 s_q,rope_calib layer 20 s_k
+21,55464,55468,8,rope_calib layer 21 s_q,rope_calib layer 21 s_k
+22,55472,55476,8,rope_calib layer 22 s_q,rope_calib layer 22 s_k
+23,55480,55484,8,rope_calib layer 23 s_q,rope_calib layer 23 s_k
+24,55488,55492,8,rope_calib layer 24 s_q,rope_calib layer 24 s_k
+25,55496,55500,8,rope_calib layer 25 s_q,rope_calib layer 25 s_k

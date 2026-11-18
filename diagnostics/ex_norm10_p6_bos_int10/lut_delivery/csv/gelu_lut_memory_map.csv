@@ -1,0 +1,27 @@
+lut_name,base_addr,entries,padded_entries,entry_size,total_bytes,s_in_ref,s_out_ref
+gelu_lut_layer_0,2048,1023,1024,2,2048,gelu_decision layer 0 s_in,gelu_decision layer 0 s_out
+gelu_lut_layer_1,4096,1023,1024,2,2048,gelu_decision layer 1 s_in,gelu_decision layer 1 s_out
+gelu_lut_layer_2,6144,1023,1024,2,2048,gelu_decision layer 2 s_in,gelu_decision layer 2 s_out
+gelu_lut_layer_3,8192,1023,1024,2,2048,gelu_decision layer 3 s_in,gelu_decision layer 3 s_out
+gelu_lut_layer_4,10240,1023,1024,2,2048,gelu_decision layer 4 s_in,gelu_decision layer 4 s_out
+gelu_lut_layer_5,12288,1023,1024,2,2048,gelu_decision layer 5 s_in,gelu_decision layer 5 s_out
+gelu_lut_layer_6,14336,1023,1024,2,2048,gelu_decision layer 6 s_in,gelu_decision layer 6 s_out
+gelu_lut_layer_7,16384,1023,1024,2,2048,gelu_decision layer 7 s_in,gelu_decision layer 7 s_out
+gelu_lut_layer_8,18432,1023,1024,2,2048,gelu_decision layer 8 s_in,gelu_decision layer 8 s_out
+gelu_lut_layer_9,20480,1023,1024,2,2048,gelu_decision layer 9 s_in,gelu_decision layer 9 s_out
+gelu_lut_layer_10,22528,1023,1024,2,2048,gelu_decision layer 10 s_in,gelu_decision layer 10 s_out
+gelu_lut_layer_11,24576,1023,1024,2,2048,gelu_decision layer 11 s_in,gelu_decision layer 11 s_out
+gelu_lut_layer_12,26624,1023,1024,2,2048,gelu_decision layer 12 s_in,gelu_decision layer 12 s_out
+gelu_lut_layer_13,28672,1023,1024,2,2048,gelu_decision layer 13 s_in,gelu_decision layer 13 s_out
+gelu_lut_layer_14,30720,1023,1024,2,2048,gelu_decision layer 14 s_in,gelu_decision layer 14 s_out
+gelu_lut_layer_15,32768,1023,1024,2,2048,gelu_decision layer 15 s_in,gelu_decision layer 15 s_out
+gelu_lut_layer_16,34816,1023,1024,2,2048,gelu_decision layer 16 s_in,gelu_decision layer 16 s_out
+gelu_lut_layer_17,36864,1023,1024,2,2048,gelu_decision layer 17 s_in,gelu_decision layer 17 s_out
+gelu_lut_layer_18,38912,1023,1024,2,2048,gelu_decision layer 18 s_in,gelu_decision layer 18 s_out
+gelu_lut_layer_19,40960,1023,1024,2,2048,gelu_decision layer 19 s_in,gelu_decision layer 19 s_out
+gelu_lut_layer_20,43008,1023,1024,2,2048,gelu_decision layer 20 s_in,gelu_decision layer 20 s_out
+gelu_lut_layer_21,45056,1023,1024,2,2048,gelu_decision layer 21 s_in,gelu_decision layer 21 s_out
+gelu_lut_layer_22,47104,1023,1024,2,2048,gelu_decision layer 22 s_in,gelu_decision layer 22 s_out
+gelu_lut_layer_23,49152,1023,1024,2,2048,gelu_decision layer 23 s_in,gelu_decision layer 23 s_out
+gelu_lut_layer_24,51200,1023,1024,2,2048,gelu_decision layer 24 s_in,gelu_decision layer 24 s_out
+gelu_lut_layer_25,53248,1023,1024,2,2048,gelu_decision layer 25 s_in,gelu_decision layer 25 s_out

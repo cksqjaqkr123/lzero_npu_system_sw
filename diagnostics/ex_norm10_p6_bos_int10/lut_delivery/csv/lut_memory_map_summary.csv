@@ -1,0 +1,4 @@
+section,base_addr,total_bytes,entries,note
+norm_scales (53 norms x 4 scales x 4B),0,848,212,"FP32, 4개씩 16B 블록, 일반+BOS 묶음"
+gelu_luts (26 x 2048B),2048,53248,26598,"INT16, 1023+1 패딩=1024, 2KB 정렬"
+rope_scales (26 x 8B),55296,208,52,"FP32, s_q/s_k"
